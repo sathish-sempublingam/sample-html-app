@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Index</title>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>*this is HTML!</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>This is a simple website to demonstrate HTML.</p>
-        </section>
-
-        <section>
-            <h2>Contact Us</h2>
-            <p>You can reach us via email at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <h1>Welcome to Our Website</h1>
+        <p>This is a simple welcome page.</p>
+    </div>
 </body>
 </html>
