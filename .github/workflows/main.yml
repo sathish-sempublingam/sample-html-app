@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: sathish-sempublingam/sample-html-app:latest
+        tags: sathishsempublingam/html-app
